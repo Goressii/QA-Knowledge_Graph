@@ -1,0 +1,1228 @@
+﻿Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-30 15:48:49.450+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-30 15:48:49.481+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-30 15:48:49.571+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-30 15:48:49.572+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-30 15:48:49.572+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-30 15:48:49.573+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-30 15:48:49.573+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-30 15:48:49.577+0000 INFO  Starting...
+2024-07-30 15:48:53.466+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-30 15:48:56.929+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-30 15:48:57.003+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-30 15:48:57.931+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-30 15:49:05.263+0000 INFO  Default database 'neo4j' is created
+2024-07-30 15:49:06.084+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-07-30 15:49:06.086+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:49:06.098+0000 INFO  Sending metrics to CSV file at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\metrics
+2024-07-30 15:49:06.244+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-07-30 15:49:06.253+0000 INFO  Bolt enabled on localhost:7687.
+2024-07-30 15:49:06.263+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-07-30 15:49:06.353+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:49:06.514+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:49:06.526+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:49:08.229+0000 INFO  HTTP enabled on localhost:7474.
+2024-07-30 15:49:08.231+0000 INFO  Remote interface available at http://localhost:7474/
+2024-07-30 15:49:08.237+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-07-30 15:49:08.238+0000 INFO  name: system
+2024-07-30 15:49:08.238+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-07-30 15:49:08.239+0000 INFO  Started.
+2024-07-30 15:49:09.546+0000 WARN  [bolt-3] The client is unauthorized due to authentication failure.
+2024-07-30 15:49:18.376+0000 WARN  [bolt-4] The client is unauthorized due to authentication failure.
+2024-07-30 15:50:36.595+0000 WARN  [bolt-5] The client is unauthorized due to authentication failure.
+2024-07-30 15:51:50.498+0000 WARN  [bolt-6] The client is unauthorized due to authentication failure.
+2024-07-30 15:51:50.831+0000 WARN  [bolt-7] The client has provided incorrect authentication details too many times in a row.
+2024-07-30 15:52:05.515+0000 WARN  [bolt-10] The client is unauthorized due to authentication failure.
+2024-07-30 15:52:05.841+0000 WARN  [bolt-11] The client has provided incorrect authentication details too many times in a row.
+2024-07-30 15:54:26.317+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-30 15:54:26.317+0000 INFO  Stopping...
+2024-07-30 15:54:26.319+0000 INFO  Stopped.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-30 15:54:40.638+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-30 15:54:40.673+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-30 15:54:40.770+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-30 15:54:40.771+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-30 15:54:40.771+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-30 15:54:40.772+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-30 15:54:40.772+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-30 15:54:40.778+0000 INFO  Starting...
+2024-07-30 15:54:45.018+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-30 15:54:47.840+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-30 15:54:47.893+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-30 15:54:49.090+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-30 15:54:58.019+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-07-30 15:54:58.025+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-07-30 15:54:58.026+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:54:58.028+0000 INFO  Sending metrics to CSV file at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\metrics
+2024-07-30 15:54:58.137+0000 INFO  Bolt enabled on localhost:7687.
+2024-07-30 15:54:58.137+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-07-30 15:54:58.285+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:54:58.802+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:54:58.810+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-30 15:55:00.788+0000 INFO  HTTP enabled on localhost:7474.
+2024-07-30 15:55:00.793+0000 INFO  Remote interface available at http://localhost:7474/
+2024-07-30 15:55:00.827+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-07-30 15:55:00.828+0000 INFO  name: system
+2024-07-30 15:55:00.829+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-07-30 15:55:00.830+0000 INFO  Started.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 19:39:23.102+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 19:39:23.135+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 19:39:23.258+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 19:39:23.258+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 19:39:23.261+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 19:39:23.262+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 19:39:23.262+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 19:39:23.270+0000 INFO  Starting...
+2024-07-31 19:39:28.006+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 19:39:31.327+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 19:39:31.381+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 19:39:32.415+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 19:39:39.998+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-07-31 19:39:40.013+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-07-31 19:39:40.013+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 19:39:40.013+0000 INFO  Sending metrics to CSV file at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\metrics
+2024-07-31 19:39:40.119+0000 INFO  Bolt enabled on localhost:7687.
+2024-07-31 19:39:40.119+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-07-31 19:39:40.204+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 19:39:40.760+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 19:39:40.760+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 19:39:41.991+0000 INFO  HTTP enabled on localhost:7474.
+2024-07-31 19:39:41.991+0000 INFO  Remote interface available at http://localhost:7474/
+2024-07-31 19:39:42.007+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-07-31 19:39:42.007+0000 INFO  name: system
+2024-07-31 19:39:42.007+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-07-31 19:39:42.007+0000 INFO  Started.
+2024-07-31 21:16:43.615+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:16:43.617+0000 INFO  Stopping...
+2024-07-31 21:16:43.626+0000 INFO  Stopped.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:44:40.009+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:44:40.068+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:44:40.188+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:44:40.189+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:44:40.189+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:44:40.190+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:44:40.190+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:44:40.198+0000 INFO  Starting...
+2024-07-31 21:44:44.593+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:44:48.340+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:44:48.400+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:44:48.448+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:44:48.473+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:44:48.474+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+1 issue found.
+Error: dbms.security.procedures.unrestricted declared multiple times.
+
+Skipping Log4j validation due to previous issues.
+
+Configuration file validation failed.
+Configuration contains errors. This validation can be performed again using 'neo4j-admin server validate-config'.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:46:16.653+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:46:16.679+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:46:16.759+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:46:16.760+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:46:16.760+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:46:16.761+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:46:16.761+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:46:16.764+0000 INFO  Starting...
+2024-07-31 21:46:20.606+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:46:23.827+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:46:23.878+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:46:23.925+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:46:23.961+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:46:23.961+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:47:52.012+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:47:52.063+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:47:52.185+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:47:52.186+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:47:52.187+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:47:52.187+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:47:52.187+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:47:52.191+0000 INFO  Starting...
+2024-07-31 21:47:57.080+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:48:00.837+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:48:00.906+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:48:00.982+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:48:01.013+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:48:01.014+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:52:04.469+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:52:04.502+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:52:04.694+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:52:04.694+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:52:04.695+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:52:04.695+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:52:04.695+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:52:04.703+0000 INFO  Starting...
+2024-07-31 21:52:09.364+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:52:12.975+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:52:13.039+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:52:13.091+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:52:13.124+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:52:13.124+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:53:46.781+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:53:46.809+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:53:46.904+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:53:46.905+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:53:46.905+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:53:46.905+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:53:46.906+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:53:46.909+0000 INFO  Starting...
+2024-07-31 21:53:50.959+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:53:54.291+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:53:54.354+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:53:54.403+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:53:54.422+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:53:54.423+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:54:50.136+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:54:50.162+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:54:50.250+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:54:50.251+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:54:50.252+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:54:50.252+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:54:50.252+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:54:50.255+0000 INFO  Starting...
+2024-07-31 21:54:54.256+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:54:57.624+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:54:57.684+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:54:57.734+0000 ERROR Failed to start Neo4j on localhost:7474.
+java.lang.RuntimeException: Error starting Neo4j database server at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data\databases
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:278) ~[neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.build(DatabaseManagementServiceFactory.java:213) ~[neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.createManagementService(EnterpriseDBMSProvider.java:39) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSProvider.<init>(EnterpriseDBMSProvider.java:29) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseDBMSFactory.createManagementService(EnterpriseDBMSFactory.java:19) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseBootstrapper.createNeo(EnterpriseBootstrapper.java:25) ~[neo4j-enterprise-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:184) [neo4j-5.20.0.jar:5.20.0]
+	at org.neo4j.server.NeoBootstrapper.start(NeoBootstrapper.java:99) [neo4j-5.20.0.jar:5.20.0]
+	at com.neo4j.server.enterprise.EnterpriseEntryPoint.main(EnterpriseEntryPoint.java:19) [neo4j-enterprise-5.20.0.jar:5.20.0]
+Caused by: org.neo4j.kernel.lifecycle.LifecycleException: Component 'org.neo4j.kernel.extension.GlobalExtensions@c1fca2a' failed to initialize. Please see the attached cause exception "'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'".
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:334) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: org.neo4j.kernel.extension.FailedToBuildExtensionException: Failed to build kernel extension Extension:RegisterComponentFactory[ApocRegisterComponent] because it is compiled with a reference to a class, method, or field, that is not in the class path: ''org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)''. The most common cause of this problem, is that Neo4j has been upgraded without also upgrading all installed extensions, such as APOC. Make sure that all of your extensions are build against your specific version of Neo4j.
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies.wrap(ExtensionFailureStrategies.java:56) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.ExtensionFailureStrategies$1.handle(ExtensionFailureStrategies.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:68) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging.internal.LogService.getUserLog(java.lang.Class)'
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:50) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at apoc.RegisterComponentFactory.newInstance(RegisterComponentFactory.java:37) ~[apoc-4.4.0.30-all.jar:4.4.0.30]
+	at org.neo4j.kernel.extension.AbstractExtensions.newInstance(AbstractExtensions.java:124) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.extension.AbstractExtensions.init(AbstractExtensions.java:62) ~[neo4j-kernel-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport$LifecycleInstance.init(LifeSupport.java:317) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.init(LifeSupport.java:56) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.kernel.lifecycle.LifeSupport.start(LifeSupport.java:85) ~[neo4j-common-5.20.0.jar:5.20.0]
+	at org.neo4j.graphdb.facade.DatabaseManagementServiceFactory.startDatabaseServer(DatabaseManagementServiceFactory.java:269) ~[neo4j-5.20.0.jar:5.20.0]
+	... 8 more
+2024-07-31 21:54:57.753+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 21:54:57.754+0000 INFO  Stopped.
+Neo4j web server failed to start. See log for more info.
+Run with '--verbose' for a more detailed error message.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-07-31 21:56:53.664+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-07-31 21:56:53.695+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-07-31 21:56:53.815+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-07-31 21:56:53.816+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-07-31 21:56:53.816+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-07-31 21:56:53.817+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-07-31 21:56:53.817+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-07-31 21:56:53.823+0000 INFO  Starting...
+2024-07-31 21:56:58.238+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:57:01.617+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-07-31 21:57:01.677+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-07-31 21:57:02.867+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-07-31 21:57:11.850+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-07-31 21:57:11.858+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-07-31 21:57:11.859+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 21:57:11.860+0000 INFO  Sending metrics to CSV file at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\metrics
+2024-07-31 21:57:12.015+0000 INFO  Bolt enabled on localhost:7687.
+2024-07-31 21:57:12.060+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-07-31 21:57:12.269+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 21:57:12.666+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 21:57:12.673+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-07-31 21:57:14.481+0000 INFO  HTTP enabled on localhost:7474.
+2024-07-31 21:57:14.482+0000 INFO  Remote interface available at http://localhost:7474/
+2024-07-31 21:57:14.491+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-07-31 21:57:14.492+0000 INFO  name: system
+2024-07-31 21:57:14.492+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-07-31 21:57:14.493+0000 INFO  Started.
+2024-07-31 22:26:09.548+0000 INFO  Neo4j Server shutdown initiated by request
+2024-07-31 22:26:09.548+0000 INFO  Stopping...
+2024-07-31 22:26:09.548+0000 INFO  Stopped.
+Powershell : Validating Neo4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b15
+7-ead3dd211387\conf\neo4j.conf
+C:\Users\tema0\AppData\Local\Neo4j\Relate\Cache\neo4j-start.ps1:11 знак:1
++ Powershell -NoProfile -NonInteractive -NoLogo `
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Validating Neo4...conf\neo4j.conf:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+5 issues found.
+Warning: Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+Warning: Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+Warning: Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+Warning: Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'
+.
+
+Validating user Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd
+211387\conf\user-logs.xml
+No issues found.
+
+Validating server Log4j configuration: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3
+dd211387\conf\server-logs.xml
+No issues found.
+
+Configuration file validation successful (with warnings).
+Directories in use:
+home:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387
+config:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf
+logs:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\logs
+plugins:      C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\plugins
+import:       C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\import
+data:         C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\data
+certificates: C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\certificates
+licenses:     C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\licenses
+run:          C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\run
+Starting Neo4j.
+2024-08-01 09:31:55.179+0000 INFO  Logging config in use: File 'C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\conf\user-logs.xml'
+2024-08-01 09:31:55.215+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2024-08-01 09:31:55.334+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-08-01 09:31:55.336+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-08-01 09:31:55.336+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-08-01 09:31:55.337+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-08-01 09:31:55.337+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-08-01 09:31:55.341+0000 INFO  Starting...
+2024-08-01 09:32:00.207+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-08-01 09:32:03.527+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-08-01 09:32:03.589+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-08-01 09:32:04.765+0000 INFO  Resolved endpoints with LIST{endpoints:'[localhost:5000]'} to '[localhost:5000]'
+2024-08-01 09:32:15.027+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-08-01 09:32:15.036+0000 INFO  Notify listeners for DB 'system' with new enrichment mode: OFF
+2024-08-01 09:32:15.037+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-08-01 09:32:15.039+0000 INFO  Sending metrics to CSV file at C:\Users\tema0\.Neo4jDesktop\relate-data\dbmss\dbms-19674d9b-d8b0-4360-b157-ead3dd211387\metrics
+2024-08-01 09:32:15.138+0000 INFO  Bolt enabled on localhost:7687.
+2024-08-01 09:32:15.155+0000 INFO  Bolt (Routing) enabled on localhost:7688.
+2024-08-01 09:32:15.299+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-08-01 09:32:15.715+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-08-01 09:32:15.724+0000 INFO  Notify listeners for DB 'neo4j' with new enrichment mode: OFF
+2024-08-01 09:32:17.530+0000 INFO  HTTP enabled on localhost:7474.
+2024-08-01 09:32:17.532+0000 INFO  Remote interface available at http://localhost:7474/
+2024-08-01 09:32:17.542+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-08-01 09:32:17.542+0000 INFO  name: system
+2024-08-01 09:32:17.543+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-08-01 09:32:17.543+0000 INFO  Started.

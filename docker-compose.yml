@@ -1,0 +1,39 @@
+version: "3.7"
+services:
+    neo4j_graph:
+        image: neo4j:5.20.0-community
+        ports:
+            - 7474:7474
+            - 7687:7687
+
+        restart: unless-stopped
+        environment:
+            - NEO4J_AUTH=neo4j/12345678
+        volumes:
+            - ./db/data:/data
+            - ./db/conf:/conf
+            - ./db/logs:/logs
+            - ./db/plugins:/plugins
+
+    app:
+        build: './'
+        command: streamlit run app.py --server.port 8501
+        volumes:
+            - ./:/app
+        ports:
+            - 8777:8501
+        image: main_app:latest
+        depends_on:
+            - neo4j_graph
+
+    graph_construction:
+        build: './'
+        command: streamlit run graph_construction.py --server.port 8502
+        volumes:
+            - ./:/app
+        ports:
+            - 8999:8502
+        image: graph_construction_app:latest
+        depends_on:
+            - neo4j_graph
+
