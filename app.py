@@ -10,7 +10,7 @@ import streamlit as st
 graph = Neo4jGraph(url="bolt://neo4j_graph:7687", username='neo4j', password='12345678')
 
 ### Инициализируем llm
-llm = ChatOpenAI(openai_api_base="http://5.188.136.251:9000/v1",
+llm = ChatOpenAI(openai_api_base=<CURL>,
                 model_name="Qwen/Qwen2-7B-Instruct",
                 openai_api_key='Not needed for local server',
                 temperature=0,

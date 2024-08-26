@@ -59,12 +59,12 @@ def gpt_helper(document, splitter):
 graph = Neo4jGraph(url="bolt://neo4j_graph:7687", username='neo4j', password='12345678')
 
 ### Инициализируем llm модели
-llm_qwen = ChatOpenAI_QWEN(openai_api_base="http://5.188.136.251:9000/v1",
+llm_qwen = ChatOpenAI_QWEN(openai_api_base=<CURL>,
                 model_name="Qwen/Qwen2-7B-Instruct",
                 openai_api_key='Not needed for local server',
                 temperature=0)
 
-llm_gpt = ChatOpenAI(course_api_key='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjlmZGM2Njc0MzA4NjQyOTdkODFlMGUiLCJleHAiOjE3MzAzMzI4MDB9.LNO8GvZdueF-Pydt6Z4JQ06rzFOnatjImq7Qxp5zwrw',
+llm_gpt = ChatOpenAI(course_api_key=<API_KEY>,
                  model="gpt-3.5-turbo", temperature=0)
 
 ### Строим промпт для извлечения сущностей и связей из сырого текста
