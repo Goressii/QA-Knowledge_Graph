@@ -1052,3 +1052,27 @@ Caused by: java.lang.NoSuchMethodError: 'org.neo4j.logging.Log org.neo4j.logging
 2024-08-11 14:55:18.589+0000 INFO  Neo4j Server shutdown initiated by request
 2024-08-11 14:55:18.590+0000 INFO  Stopping...
 2024-08-11 14:55:23.897+0000 INFO  Stopped.
+2024-10-27 20:33:17.600+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2024-10-27 20:33:17.612+0000 WARN  Use of deprecated setting 'dbms.windows_service_name'. It is replaced by 'server.windows_service_name'.
+2024-10-27 20:33:17.613+0000 WARN  Use of deprecated setting 'dbms.jvm.additional'. It is replaced by 'server.jvm.additional'.
+2024-10-27 20:33:17.613+0000 WARN  Use of deprecated setting 'dbms.memory.pagecache.size'. It is replaced by 'server.memory.pagecache.size'.
+2024-10-27 20:33:17.614+0000 WARN  Use of deprecated setting 'dbms.memory.heap.max_size'. It is replaced by 'server.memory.heap.max_size'.
+2024-10-27 20:33:17.615+0000 WARN  Use of deprecated setting 'dbms.memory.heap.initial_size'. It is replaced by 'server.memory.heap.initial_size'.
+2024-10-27 20:33:17.615+0000 WARN  Unrecognized setting. No declared setting with name: dbms.security.authentication_providers.
+2024-10-27 20:33:17.616+0000 WARN  Unrecognized setting. No declared setting with name: server.metrics.csv.rotation.compression.
+2024-10-27 20:33:17.616+0000 WARN  Unrecognized setting. No declared setting with name: NEO4J_server_config_strict__validation_enabled.
+2024-10-27 20:33:17.617+0000 WARN  Unrecognized setting. No declared setting with name: dbms.security.authorization_providers.
+2024-10-27 20:33:17.631+0000 INFO  Starting...
+2024-10-27 20:33:18.578+0000 INFO  This instance is ServerId{602535b5} (602535b5-72cc-4072-9043-806bff238745)
+2024-10-27 20:33:19.463+0000 INFO  ======== Neo4j 5.20.0 ========
+2024-10-27 20:33:22.278+0000 INFO  Anonymous Usage Data is being sent to Neo4j, see https://neo4j.com/docs/usage_data/
+2024-10-27 20:33:22.334+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2024-10-27 20:33:22.956+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2024-10-27 20:33:22.957+0000 INFO  Remote interface available at http://localhost:7474/
+2024-10-27 20:33:22.962+0000 INFO  id: 34442AD19D161F429FED405696B71068294899076C5D686109E18ECC32BE05B2
+2024-10-27 20:33:22.964+0000 INFO  name: system
+2024-10-27 20:33:22.966+0000 INFO  creationDate: 2024-07-30T15:49:02.689Z
+2024-10-27 20:33:22.967+0000 INFO  Started.
+2024-10-27 20:36:37.732+0000 INFO  Neo4j Server shutdown initiated by request
+2024-10-27 20:36:37.734+0000 INFO  Stopping...
+2024-10-27 20:36:43.065+0000 INFO  Stopped.

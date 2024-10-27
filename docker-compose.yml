@@ -17,7 +17,7 @@ services:
 
     app:
         build: './'
-        command: streamlit run app.py --server.port 8501
+        command: streamlit run src/app.py --server.port 8501
         volumes:
             - ./:/app
         ports:
@@ -28,7 +28,7 @@ services:
 
     graph_construction:
         build: './'
-        command: streamlit run graph_construction.py --server.port 8502
+        command: streamlit run src/graph_construction.py --server.port 8502
         volumes:
             - ./:/app
         ports:
