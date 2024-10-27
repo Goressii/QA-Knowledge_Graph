@@ -179,8 +179,8 @@ few_shot_prompt_template_qwen = FewShotPromptTemplate(
 )
 
 ### Загружаем данные
-doc_train = load_raw_text("data.txt")
-doc_eval = load_raw_text("eval_data.txt")
+doc_train = load_raw_text("../data/data.txt")
+doc_eval = load_raw_text("../data/eval_data.txt")
 docs = [doc_train, doc_eval]
 
 ### Для чанкинга будем использовать рекурсивный текст сплиттер
