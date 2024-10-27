@@ -33,9 +33,9 @@
 ## Навигация
 В `./db` лежат файлы для neo4j.
 
-`./graph_construction.py` и `./app.py`- код streamlit приложений для построения графа и поиска соответсвенно.
+`./src/graph_construction.py` и `./src/app.py`- код streamlit приложений для построения графа и поиска соответсвенно.
 
-`./data.txt` и `./data_eval.txt`- текстовые данные для построения графа.
+`./data/data.txt` и `./data/data_eval.txt`- текстовые данные для построения графа.
 
 `./requirements.txt`- необходимые зависимости.
 
