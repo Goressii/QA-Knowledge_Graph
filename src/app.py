@@ -82,7 +82,21 @@ few_shot_prompt_template = FewShotPromptTemplate(
 entity_chain = few_shot_prompt_template | llm | StrOutputParser()
 
 ### Mapping
-def map_to_database(values):
+match_query = """MATCH (n)
+WHERE n.id CONTAINS $value
+RETURN n.id AS id, labels(n)[0] AS type
+LIMIT 1
+"""
+
+def map_to_database(values: str) -> str:
+    '''
+    Производит маппинг сушностей из вопроса пользователя и сущностей графа знаний.
+
+    Args:
+        values (str): Сущности из вопроса пользователя в различных формах.
+    Returns:
+        result (str): Информация о маппинге сущностей.
+    '''
     try:
         values = eval(values)
     except:
@@ -97,12 +111,6 @@ def map_to_database(values):
             pass
     return result
     
-match_query = """MATCH (n)
-WHERE n.id CONTAINS $value
-RETURN n.id AS id, labels(n)[0] AS type
-LIMIT 1
-"""
-
 ### Генерация cypher запроса
 examples = [
     {

@@ -1,9 +1,8 @@
 import streamlit as st
 from stqdm import stqdm
+from langchain import FewShotPromptTemplate, PromptTemplate
 from langchain_community.graphs import Neo4jGraph
 from langchain.prompts import ChatPromptTemplate
-from langchain import FewShotPromptTemplate
-from langchain import PromptTemplate
 from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai import ChatOpenAI
@@ -14,15 +13,28 @@ from langchain.graphs.graph_document import (
 )
 
 def load_raw_text(path_to_file: str) -> str:
-    ''' Функция для загрузки сырого текста '''
+    '''
+    Загружает сырой текст.
+
+    Args:
+        path_to_file (str): Путь до файла.
+    Returns:
+        result (str): Текст из исходного файла.
+    '''
     result = ""
     with open(path_to_file, "r", encoding="utf-8") as fl:
         for line in fl:
             result += line
     return result
 
-def graph_construction(split_documents, splitter_for_gpt):
-    '''Основная функция для извлечения сущностей и связей из текста, и добавления их в граф'''
+def graph_construction(split_documents: list[Document], splitter_for_gpt: RecursiveCharacterTextSplitter):
+    '''
+    Основная функция для извлечения сущностей и связей из текста, и добавления их в граф.
+    
+    Args:
+        split_documents (list[Document]): Список чанков из исходного документа. 
+        splitter_for_gpt (RecursiveCharacterTextSplitter): Сплиттер, чтобы разбить "ошибочный" чанк для контекстного окна gpt.
+    '''
     for document in stqdm(split_documents):
         ans = llm_qwen.invoke(few_shot_prompt_template_qwen.format(input=document), max_tokens=5000).content
         try:
@@ -36,9 +48,15 @@ def graph_construction(split_documents, splitter_for_gpt):
         except:
             gpt_helper(document, splitter_for_gpt)
 
-def gpt_helper(document, splitter):
-    '''Дополнительная функция для извлечения сущностей и связей из текста, и добавления их в граф.
-    Используется в случаях, когда ответ основной модели вызывает ошибку'''
+def gpt_helper(document: Document, splitter: RecursiveCharacterTextSplitter):
+    '''
+    Дополнительная функция для извлечения сущностей и связей из текста, и добавления их в граф.
+    Используется в случаях, когда ответ основной модели вызывает ошибку.
+    
+    Args:
+        document (Document): Чанк, на котором ошиблась основная модель.
+        splitter (RecursiveCharacterTextSplitter): Рекурсивный сплиттер.
+    '''
     new_documents = splitter.create_documents([str(document)])
     for doc in new_documents:
         ans = llm_gpt.invoke(few_shot_prompt_template_gpt.format(input=document)).content
