@@ -190,6 +190,7 @@ chain = (
     | StrOutputParser()
 )
 
+
 ### ИНТЕРФЕЙС
 def question_answering(qa_chain, question):
     try:

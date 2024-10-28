@@ -71,7 +71,6 @@ def gpt_helper(document: Document, splitter: RecursiveCharacterTextSplitter):
         except:
             continue
 
-
 ### Инициализируем граф
 graph = Neo4jGraph(url="bolt://neo4j_graph:7687", username='neo4j', password='12345678')
 
